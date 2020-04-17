@@ -1,0 +1,28 @@
+II.Aşama - Verinin Görselleştirilmesi ve Sunumu Raporu 
+
+Veri Setinin Tanıtımı;
+
+Kahramanmaraş İline ait elimizdeki datasetinde gerekli temizleme ve dönüşüm işlemleri gerçekleştirildikten sonra 8 tane niteliğimiz ortaya çıkmıştır. Bunlarınisimleri ve özellikleri ise aşağıda detaylı olarak açıklanmıştır. 
+Tarih : Ölçümlerin yapıldığı tarih bilgileridir. http://www.havaizleme.gov.tr/adresinden 01.01.2020 - 01.04.2020 tarihleri arasındaki datalar tercihedilmiştir. 
+PM10 ( µg/m³ ) : Toz, polen, küf gibi 10 mikron ve daha küçük parçacıklar PM10 (partikülermadde) olarak adlandırılmaktadır. 
+PM10 Debi ( m³/saat ) : Saatte akıma uğrayan PM10 miktarını belirtmektedir.
+SO2 ( µg/m³ ) : Kükürt dioksit (SO2), renksiz, keskin kokulu reaktif bir gaz olup kömür,fuel-oil gibi kükürt içeren yakıtların yanması sırasında, metal eritme işlemleri ve diğer endüstriyel işlemler sonucu oluşur.
+Hava Sıcaklığı ( °C ) : Havanın Santigrat cinsinden ölçülmüş sıcaklığıdır.
+Rüzgar Hızı ( m/s ) : Rüzgâr hızı, atmosferdeki rüzgârın, hava veya diğer gazların hareket hızıdır.
+Bağıl Nem ( % ) : Bağıl nem, havada bulunan su buharına ait kısmi basıncın, aynı sıcaklıktaki suyun denge buhar basıncına oranıdır. Başka bir deyişle bağıl nem,havanın belirli bir sıcaklıkta taşıyabileceği nem miktarının yüzde kaçını taşıdığını belirtir.
+Kabin Sıcaklığı ( °C ) : Genel anlamıyla iç ortam sıcaklığı olarak belirtilmektedir. Santigrat cinsinden hesaplanmıştır. 
+
+
+Veri Setinin Görselleştirilmesi
+
+
+Verilerin ilk aşamada görselleştirilmesi adına araştırmalaryaptım. Edindiğim bilgiler doğrultusunda ilk aşamada öncelikli hedef veri sütunlarının logaritmik artış/azalış tablosunu pythonla gerekli kütüphaneler kullanarak hazırladım. Hazırladığım logaritmik gösterim grafiğinde ilk etaptaPM10,PM10Debi,Hava Sıcaklığı ve Bağıl nem verilerini kullanarak genel hareketsonuçlarını görmeyi hedefledim. Bu hedef doğrultusunda bakıldığın PM10 değeri logaritmik olarak artış gösterirken diğer değerlerden PM10 Debisi hariç tüm değerler PM10 değerinin kırılma noktasında zirve değerlerine ulaşmaktadırlar. 
+Daha sonra hava sıcaklığının tarihe göre değişimine yönelik grafik için kodları hazırladım. Grafik için hazırladığım tarih aralıkları “11.02.2020  02:00:56” şeklinde çok detaylı olduğu için grafikte kısaltılmış haliyle gösterim sundu. 
+Son olarak SO2 salınımının tarih olarak değişim grafiğinioluşturdum. Bu grafik hava kirliliği analizinde önemli olduğunu düşündüğüm bir veri başlığıdır. Çünkü kükürt içeren çoğu zararlı yakıtların yakımı sonucu ortaya çıktığı ve havayı çok fazla kirlettiği için bu başlık altında hava kirliliğinde bir azalma olup olmadığını gözlemleyebiliriz. Grafiklerin sunumu için web sayfamdan hazırladığım bağlantılar sunum başlığı altında aşağıdadır.
+
+Görselleştirilmiş Verinin Sunumu
+
+Hazırladığım veri grafiklerini html olarak çıktıya dönüştürüp detaylı kullanılabilir bir grafik yapısı halinde web sitemin içerisine ekledim. Gerekli sayfaların açıklaması ve erişim adresleri aşağıdadır.
+Verilerin Logaritmik Gösterim Grafiği ; http://ymgk.mustafakaynak.com/log_cizgi.html
+Hava Sıcaklığı Değişim Grafiği ; http://ymgk.mustafakaynak.com/cizgi.html
+SO2 Değişim Grafiği ; http://ymgk.mustafakaynak.com/So2cizgi.html
