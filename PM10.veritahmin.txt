@@ -1,0 +1,72 @@
+PM10 ‘ olarak yapılan eğitimde ileriye dönük sonuçlar aşağıdadır;
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    -0.3419109389103593
+    Node 1    0.4475935182909453
+    Node 2    1.1550100155713385
+    Node 3    0.15033268473457695
+    Node 4    1.1291488253693847
+    Node 5    0.6508700392349052
+    Node 6    -0.5224146462203171
+    Node 7    0.5470380078775191
+    Node 8    1.0202093737028224
+    Node 9    0.7613029591518449
+    Node 10    0.06079901199909339
+    Node 11    0.5047309544215285
+    Node 12    0.7301014723850894
+    Node 13    -0.446677442229345
+    Node 14    0.5116371598640337
+    Node 15    -0.48546739678779804
+    Node 16    0.955033268065035
+    Node 17    0.8520786060158373
+    Node 18    -0.011637153300986166
+    Node 19    1.2742370838369683
+    Node 20    0.6013561253081422
+    Node 21    0.826344066621236
+    Node 22    0.7808222741742553
+    Node 23    -0.05669737399939136
+    Node 24    0.6258671351055975
+    Node 25    0.7758782216997413
+    Node 26    0.5373566863767384
+    Node 27    1.0842871811734889
+    Node 28    0.4953166270229668
+    Node 29    0.737456462654923
+    Node 30    -0.01361051178678081
+    Node 31    -0.07524037358385854
+    Node 32    0.5920812145943901
+    Node 33    0.34865630730065655
+    Node 34    0.10743417212951997
+    Node 35    -0.3369452512862284
+    Node 36    -0.15222981576234174
+    Node 37    0.672080905928595
+    Node 38    0.5384330142593361
+    Node 39    0.9728616248428263
+    Node 40    0.6798454893833564
+    Node 41    0.5090544484424686
+    Node 42    0.6480177051073964
+    Node 43    0.8601258521726545
+    Node 44    0.6456739611892347
+    Node 45    0.02641403207690515
+    Node 46    -0.41700128984645596
+    Node 47    0.5667860074040598
+    Node 48    -0.03130710423370936
+    Node 49    0.5319746571303646
+Time taken to build model: 83.95 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.7182
+Mean absolute error                     35.313 
+Root mean squared error                 54.3423
+Relative absolute error                 70.1702 %
+Root relative squared error             69.8007 %
+Total Number of Instances             1988     
+Ignored Class Unknown Instances                196
+
+
+
+
